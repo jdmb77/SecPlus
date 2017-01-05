@@ -78,14 +78,17 @@ ul{
 	background: url("images/lock.png") no-repeat scroll right bottom #f6f6f6;
 }
 .q-title{
-	background: url("images/secpluspe.png") no-repeat scroll right bottom #f6f6f6;
+	background: url("images/secpluspe.png") no-repeat scroll #f6f6f6;
 	height: 28px;
-    width: 128px;
+  width: 128px;
+  position: absolute;
+  top: 8px;
+  left: 42%;
 }
 .q-gameOver  hr{
 	visibility: hidden;
 }
-.q-score-track {
+/*.q-score-track {
 	margin-right: 50px;
 	float: right;
-}
+}*/
