@@ -1,7 +1,4 @@
-$( function($){
-	var undefVar, answerInfo = ["When == is called, type casting is performed. ", "=== does no type casting."],
-	arr = [1, 2, 3, 4];
-	arr["five"] = 5;
+$(function($){
 	
 	var quiz = {
 		multiList: [
@@ -68,7 +65,7 @@ $( function($){
 			{
 				ques: "Which of the following BEST describes the proper method and reason to implement port security?",
 				ans: "Apply a security control which ties specific ports to end-device MAC addresses and prevents additional devices from being connected to the network.",
-				ansSel: ["Apply a security control which ties specific networks to end-device IP addresses and preventsnew devices from being connected to the network.", "Apply a security control which ties specific ports to end-device MAC addresses and prevents all devices from being connected to the network.", "Apply a security control which ties specific ports to end-device IP addresses and prevents mobile devices from being connected to the network."]
+				ansSel: ["Apply a security control which ties specific networks to end-device IP addresses and prevents new devices from being connected to the network.", "Apply a security control which ties specific ports to end-device MAC addresses and prevents all devices from being connected to the network.", "Apply a security control which ties specific ports to end-device IP addresses and prevents mobile devices from being connected to the network."]
 			},
 			{
 				ques: "Which of the following would need to be configured correctly to allow remote access to the network?",
@@ -76,7 +73,7 @@ $( function($){
 				ansSel: ["Kerberos", "Tokens", "Biometrics"]
 			},
 			{
-				ques: "By default, which of the following stops network traffic when the traffic is not identified in the firewall ruleset?",
+				ques: "By default, which of the following stops network traffic when the traffic is not identified in the firewall rule-set?",
 				ans: "Implicit deny",
 				ansSel: ["Access control lists", "Explicit allow", "Explicit deny"]
 			},
@@ -91,9 +88,9 @@ $( function($){
 				ansSel: ["Virtualization", "Port security", "IPSec"]
 			},
 			{
-				ques: "Which of the following is the default rule found in a corporate firewall's access control list?",
+				ques: "Which of the following is the default rule found in a corporate firewalls access control list?",
 				ans: "Deny all",
-				ansSel: ["Anti-spoofing", "Permit all", "Multicast list"]
+				ansSel: ["Anti-spoofing", "Permit all", "Multi-cast list"]
 			},
 			{
 				ques: "Which of the following is BEST used to prevent ARP poisoning attacks across a network?",
@@ -111,7 +108,7 @@ $( function($){
 				ansSel: ["IP allow any any", "Separation of duties", "Time of day restrictions"]
 			},
 			{
-				ques: "Which of the following cloud computing concepts is BEST described as providing an easy-toconfigure OS and on-demand computing for customers?",
+				ques: "Which of the following cloud computing concepts is BEST described as providing an easy to configure OS and on-demand computing for customers?",
 				ans: "Platform as a Service",
 				ansSel: ["Software as a Service", "Infrastructure as a Service", "Trusted OS as a Service"]
 			},
@@ -128,7 +125,7 @@ $( function($){
 			{
 				ques: "An administrator is taking an image of a server and converting it to a virtual instance. Which of the following BEST describes the information security requirements of a virtualized server?",
 				ans: "Virtual servers have the same information security requirements as physical servers.",
-				ansSel: ["Virtual servers require OS hardening but not patching or antivirus.", "Virtual servers inherit information security controls from the hypervisor.", "Virtual servers only require data security controls and do not require licenses."]
+				ansSel: ["Virtual servers require OS hardening but not patching or anti-virus.", "Virtual servers inherit information security controls from the hypervisor.", "Virtual servers only require data security controls and do not require licenses."]
 			},
 			{
 				ques: "Webmail is classified under which of the following cloud-based technologies?",
@@ -143,7 +140,7 @@ $( function($){
 			{
 				ques: "Which of the following may cause a user, connected to a NAC-enabled network, to not be prompted for credentials?",
 				ans: "The user's PC is missing the authentication agent.",
-				ansSel: ["The user's PC is not fully patched.", "The user's PC is not at the latest service pack.", "The user's PC has out-of-date antivirus software."]
+				ansSel: ["The user's PC is not fully patched.", "The user's PC is not at the latest service pack.", "The user's PC has out-of-date anti-virus software."]
 			},
 			{
 				ques: "Which of the following would be implemented to allow access to services while segmenting access to the internal network?",
@@ -418,7 +415,7 @@ $( function($){
 			{
 				ques: "Which of the following is the MAIN reason to require data labeling?",
 				ans: "To ensure that staff understands what data they are handling and processing",
-				ansSel: ["To ensure that new viruses do not transfer to removable media", "To ensure that all media sanitization requirements are met", "To ensure that phishing attacks are identified and labeled properly"]
+				ansSel: ["To ensure that new viruses do not transfer to removable media", "To ensure that all media sanitation requirements are met", "To ensure that phishing attacks are identified and labeled properly"]
 			},
 			{
 				ques: "DRPs should contain which of the following?",
@@ -491,7 +488,7 @@ $( function($){
 				ansSel: ["Authenticity", "Availability", "Confidentiality"]
 			},
 			{
-				ques: "A user downloads a keygen to install pirated software. After running the keygen, system performance is extremely slow and numerous antivirus alerts are displayed. Which of the following BEST describes this type of malware?",
+				ques: "A user downloads a keygen to install pirated software. After running the keygen, system performance is extremely slow and numerous anti-virus alerts are displayed. Which of the following BEST describes this type of malware?",
 				ans: "Trojan",
 				ansSel: ["Logic bomb", "Worm", "Adware"]
 			},
@@ -531,7 +528,7 @@ $( function($){
 				ansSel: ["password sharing.", "implicit deny.", "administrative account lockout."]
 			},
 			{
-				ques: "When examining HTTP server logs the security administrator notices that the company's onlinestore crashes after a particular search string is executed by a single external user. Which of the following BEST describes this type of attack?",
+				ques: "When examining HTTP server logs the security administrator notices that the company's online store crashes after a particular search string is executed by a single external user. Which of the following BEST describes this type of attack?",
 				ans: "DoS",
 				ansSel: ["Spim", "DDoS", "Spoofing"]
 			},
@@ -601,7 +598,7 @@ $( function($){
 				ansSel: ["War driving", "Rogue access point", "War chalking"]
 			},
 			{
-				ques: "Data can potentially be stolen from a disk encrypted, screen-lock protected, smartphone by which of the following?",
+				ques: "Data can potentially be stolen from a disk encrypted, screen-lock protected, smart phone by which of the following?",
 				ans: "Bluesnarfing",
 				ansSel: ["IV attack", "Honeynet", "SIM cloning"]
 			},
@@ -701,7 +698,7 @@ $( function($){
 				ansSel: ["Proximity readers", "Video surveillance", "Biometric keypad"]
 			},
 			{
-				ques: "A visitor plugs their laptop into the network and receives a warning about their antivirus being out-of-date along with various patches that are missing. The visitor is unable to access the Internet or any network resources. Which of the following is the MOST likely cause?",
+				ques: "A visitor plugs their laptop into the network and receives a warning about their anti-virus being out-of-date along with various patches that are missing. The visitor is unable to access the Internet or any network resources. Which of the following is the MOST likely cause?",
 				ans: "The IPS detected that the visitor's laptop did not have the right patches and updates so it prevented its access to the network.",
 				ansSel: ["The IDS detected that the visitor's laptop did not have the right patches and updates so the IDS blocked access to the network.", "The security posture is enabled on the network and remediation must take place before access is given to the visitor on that laptop.", "The security posture is disabled on the network but remediation must take place before access is given to the visitor on that laptop."]
 			},
@@ -738,7 +735,7 @@ $( function($){
 			{
 				ques: "Which of the following would be the BEST action to perform when conducting a corporate vulnerability assessment?",
 				ans: "Organize data based on severity and asset value.",
-				ansSel: ["Document scan results for the change control board.", "Update antivirus signatures and apply patches.", "Examine the vulnerability data using a network analyzer."]
+				ansSel: ["Document scan results for the change control board.", "Update anti-virus signatures and apply patches.", "Examine the vulnerability data using a network analyzer."]
 			},
 			{
 				ques: "Which of the following is used when performing a quantitative risk analysis?",
@@ -861,7 +858,7 @@ $( function($){
 				ansSel: ["Common access card", "Strong password complexity", "Biometric authentication"]
 			},
 			{
-				ques: "Which of the following should be performed if a smartphone is lost to ensure no data can be retrieved from it?",
+				ques: "Which of the following should be performed if a smart phone is lost to ensure no data can be retrieved from it?",
 				ans: "Remote wipe",
 				ansSel: ["Device encryption", "Screen lock", "GPS tracking"]
 			},
@@ -883,12 +880,12 @@ $( function($){
 			{
 				ques: "A security administrator has been receiving support tickets for unwanted windows appearing on user's workstations. Which of the following can the administrator implement to help prevent this from happening?",
 				ans: "Pop-up blockers",
-				ansSel: ["Screen locks", "Host-based firewalls", "Antivirus"]
+				ansSel: ["Screen locks", "Host-based firewalls", "Anti-virus"]
 			},
 			{
 				ques: "Which of the following would an administrator apply to mobile devices to BEST ensure the confidentiality of data?",
 				ans: "Device encryption",
-				ansSel: ["Screen locks", "Remote sanitization", "Antivirus software"]
+				ansSel: ["Screen locks", "Remote sanitation", "Anti-virus software"]
 			},
 			{
 				ques: "Which of the following is a security vulnerability that can be disabled for mobile device users?",
@@ -923,7 +920,7 @@ $( function($){
 			{
 				ques: "Which of the following is MOST likely to result in data loss?",
 				ans: "Developers copying data from production to the test environments via a USB stick.",
-				ansSel: ["Encrypted backup tapes left unattended at reception for offsite storage.", "Accounting transferring confidential staff details via SFTP to the payroll department.", "Back office staff accessing and updating details on the mainframe via SSH."]
+				ansSel: ["Encrypted backup tapes left unattended at reception for off-site storage.", "Accounting transferring confidential staff details via SFTP to the payroll department.", "Back office staff accessing and updating details on the mainframe via SSH."]
 			},
 			{
 				ques: "A security administrator is implementing a solution that can integrate with an existing server and provide encryption capabilities. Which of the following would meet this requirement?",
@@ -938,7 +935,7 @@ $( function($){
 			{
 				ques: "Which of the following can cause hardware based drive encryption to see slower deployment?",
 				ans: "A lack of management software",
-				ansSel: ["USB removable drive encryption", "Role/rule-based access control", "Multifactor authentication with smart cards"]
+				ansSel: ["USB removable drive encryption", "Role/rule-based access control", "Multi-factor authentication with smart cards"]
 			},
 			{
 				ques: "Which of the following is the MOST secure way of storing keys or digital certificates used for decryption/encryption of SSL sessions?",
@@ -973,7 +970,7 @@ $( function($){
 			{
 				ques: "A purpose of LDAP authentication services is:",
 				ans: "a single point of user management.",
-				ansSel: ["to implement mandatory access controls", "to prevent multifactor authentication.", "to issue one-time hashed passwords."]
+				ansSel: ["to implement mandatory access controls", "to prevent multi-factor authentication.", "to issue one-time hashed passwords."]
 			},
 			{
 				ques: "When granting access, which of the following protocols uses multiple-challenge responses for authentication, authorization and audit?",
@@ -1021,7 +1018,7 @@ $( function($){
 				ansSel: ["System security categorization requirement", "Baseline configuration development", "Contingency planning"]
 			},
 			{
-				ques: "A thumbprint scanner is used to test which of the following aspects of human authentication?",
+				ques: "A thumb print scanner is used to test which of the following aspects of human authentication?",
 				ans: "Something a user is",
 				ansSel: ["Something a user did", "Something a user has", "Something a user knows"]
 			},
@@ -1033,7 +1030,7 @@ $( function($){
 			{
 				ques: "In order to access the network, an employee must swipe their finger on a device. Which of the following describes this form of authentication?",
 				ans: "Biometrics",
-				ansSel: ["Single sign-on", "Multifactor", "Tokens"]
+				ansSel: ["Single sign-on", "Multi-factor", "Tokens"]
 			},
 			{
 				ques: "A proximity card reader is used to test which of the following aspects of human authentication?",
@@ -1041,7 +1038,7 @@ $( function($){
 				ansSel: ["Something a user knows", "Something a user is", "Something a user did"]
 			},
 			{
-				ques: "Which of the following would be considered multifactor authentication?",
+				ques: "Which of the following would be considered multi-factor authentication?",
 				ans: "Pin number and a smart card",
 				ansSel: ["ACL entry and a pin number", "Username and password", "Common access card"]
 			},
@@ -1121,7 +1118,7 @@ $( function($){
 				ansSel: ["stored procedures.", "encryption.", "transaction logs."]
 			},
 			{
-				ques: "WEP is seen as an unsecure protocol based on its improper use of which of the following?",
+				ques: "WEP is seen as an unsecured protocol based on its improper use of which of the following?",
 				ans: "RC4",
 				ansSel: ["RC6", "3DES", "AES"]
 			},
@@ -1138,7 +1135,7 @@ $( function($){
 			{
 				ques: "Which of the following access control technologies provides a rolling password for one-time use?",
 				ans: "RSA tokens",
-				ansSel: ["ACL", "Multifactor authentication", "PIV card"]
+				ansSel: ["ACL", "Multi-factor authentication", "PIV card"]
 			},
 			{
 				ques: "A security administrator has discovered through a password auditing software that most passwords can be discovered by cracking the first seven characters and then cracking the second part of the password. Which of the following is in use by the company?",
@@ -1176,7 +1173,7 @@ $( function($){
 				ansSel: ["Recovery agent", "Registration", "Key escrow"]
 			},
 			{
-				ques: "Which of the following asymmetric encryption keys is used to encrypt data to ensure only the intended recipient can decrypt the ciphertext?",
+				ques: "Which of the following asymmetric encryption keys is used to encrypt data to ensure only the intended recipient can decrypt the cipher-text?",
 				ans: "Public",
 				ansSel: ["Private", "Escrow", "Preshared"]
 			},
@@ -1233,19 +1230,24 @@ $( function($){
 		]
 	},
 	options = {
-		help: '<ul><li class="pdf"><a href="docs/secplusobj.pdf" target ="_blank">Comptia Security + (2011 Objectives)</a><li></ul>',
+		//help: '<ul><li class="pdf"><a href="docs/secplusobj.pdf" target ="_blank">Comptia Security + (2011 Objectives)</a><li></ul>',
 		intro: "This Security + practice exam is comprised of 245 questions from SY0-301/JK0-018 exams. These questions will familiarize and help you study for your test. Once started, click &quot;Check&quot; after answering to check your answer then select &quotNext&quot to proceed. Good luck!" +
 		"<h3>Actual exam:</h3>" +
 		"<ul><li>90min long</li><li>100 questions</li><li>Passing score = 750 on a 100-900 scale</li></ul>",
 		allRandom: true,
 		title: "",
 		disableDelete: true,
-		showWrongAns: true
+		showWrongAns: true,
+		statusUpdate: function(quizInfo, currQuiz) {
+			$(".q-score-track").remove();
+			var score = "<div class='q-score-track'><img src='css/images/tick.png'> "+ quizInfo.numOfRight +" <img src='css/images/x.png'> "+ quizInfo.numOfWrong +"</div>";
+			$(score).prependTo(".q-header");
+		}
 	};
 	$("#quizArea").jQuizMe(quiz, options);
 	
 	$(".q-leftArrow").val("<<");
 	$(".q-rightArrow").val(">>");
 	$(".q-quitNo-btn").val("continue");
-	$(".q-missMarker").text(" check to show incorrect only - *");
+	$(".q-missMarker").text(" check to show incorrect only - *");	
 });

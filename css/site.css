@@ -85,3 +85,8 @@ ul{
 .q-gameOver  hr{
 	visibility: hidden;
 }
+.q-score-track {
+	width: 85px;
+	margin-right: 40px;
+	float: right;
+}
