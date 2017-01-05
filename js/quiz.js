@@ -1238,10 +1238,10 @@ $(function($){
 		title: "",
 		disableDelete: true,
 		showWrongAns: true,
-		statusUpdate: function(quizInfo, currQuiz) {
+		statusUpdate: function(quizInfo) {
 			$(".q-score-track").remove();
-			var score = "<div class='q-score-track'><img src='css/images/tick.png'> "+ quizInfo.numOfRight +" <img src='css/images/x.png'> "+ quizInfo.numOfWrong +"</div>";
-			$(score).prependTo(".q-header");
+			var score = "<div class='q-score-track'><span><img src='css/images/tick.png'> "+ quizInfo.numOfRight +" </span><span><img src='css/images/x.png'> "+ quizInfo.numOfWrong +" </span></div>";
+			$(".q-counter").after(score);
 		}
 	};
 	$("#quizArea").jQuizMe(quiz, options);
