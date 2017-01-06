@@ -1230,7 +1230,7 @@ $(function($){
 		]
 	},
 	options = {
-		//help: '<ul><li class="pdf"><a href="docs/secplusobj.pdf" target ="_blank">Comptia Security + (2011 Objectives)</a><li></ul>',
+		help: '<ul><li class="link"><a href="https://certification.comptia.org/training/self-study" target ="_blank">Comptia Self Study</a><li></ul>',
 		intro: "This Security + practice exam is comprised of 245 questions from SY0-301/JK0-018 exams. These questions will familiarize and help you study for your test. Once started, click &quot;Check&quot; after answering to check your answer then select &quotNext&quot to proceed. Good luck!" +
 		"<h3>Actual exam:</h3>" +
 		"<ul><li>90min long</li><li>100 questions</li><li>Passing score = 750 on a 100-900 scale</li></ul>",
