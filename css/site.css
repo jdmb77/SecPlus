@@ -1,46 +1,46 @@
-body{
+body {
 	/*background-color: #538BA6;*/
 	background: url("images/cogs-left.png") no-repeat scroll 0 0 #538BA6;
 }
-a{
+a {
 	color: #043C57;
 	font-size: 0.9em;
 }
-a:hover{
+a:hover {
 	color: #042D43;
 	text-decoration: none;
 }
-hr{
+hr {
 	border: 1px solid;
-    left: -45px;
-    position: relative;
-    width: 90%;
+	left: -45px;
+	position: relative;
+	width: 90%;
 }
-input[type="button"]{
+input[type="button"] {
 	background-color: #E3E3E3;
-    border: 1px solid #C5C5C5;
+	border: 1px solid #C5C5C5;
 	border-radius: 4px 4px 4px 4px;
 	color: #2E2E2E;
 	-moz-box-sizing: border-box;
-    cursor: pointer;
-    display: inline-block;
-    font-family: inherit;
-    line-height: 1.66em;
-    margin: 2px;
-    padding: 2px 7px;
-    text-align: center;
-    text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	font-family: inherit;
+	line-height: 1.66em;
+	margin: 2px;
+	padding: 2px 7px;
+	text-align: center;
+	text-decoration: none;
 }
-input[type="button"]:hover{
+input[type="button"]:hover {
 	border-color: #aaa;
 }
-input[type="button"]:disabled{
+input[type="button"]:disabled {
 	color: #a1a1a1;
 }
-ul{
+ul {
 	list-style: none;
 }
-.frame{
+.frame {
 	border: 2px solid #ccc;
 	border-radius: 4px 4px 4px 4px;
 	margin: 0 auto;
@@ -49,7 +49,7 @@ ul{
 	top: 50px;
 	width: 800px;
 }
-.cogs{
+.cogs {
 	background: url("images/cogs-left.png") no-repeat scroll 0 0 transparent;
 	height: 817px;
 	left: -20px;
@@ -57,15 +57,15 @@ ul{
 	top: 0px;
 	width: 330px;
 }
-.pdf{
-	background: url("images/Reader-16.gif") no-repeat scroll 0 0 transparent;
+.link {
+	background: url("images/link.png") no-repeat scroll 0 0 transparent;
 	padding-left: 25px;
 }
-.vid{
+.vid {
 	background: url("images/youtube.png") no-repeat scroll 0 0 transparent;
 	padding-left: 25px;
 }
-.logo{
+.logo {
 	background: url("images/comptialogo.png") no-repeat scroll 0 0 transparent;
 	height: 78px;
 	width: 194px;
@@ -74,18 +74,18 @@ ul{
 	font-size: 0.7em;
 	color: #ff0000;
 }
-.q-prob{
+.q-prob {
 	background: url("images/lock.png") no-repeat scroll right bottom #f6f6f6;
 }
-.q-title{
+.q-title {
 	background: url("images/secpluspe.png") no-repeat scroll #f6f6f6;
 	height: 28px;
-  width: 128px;
-  position: absolute;
-  top: 8px;
-  left: 42%;
+	width: 128px;
+	position: absolute;
+	top: 8px;
+	left: 42%;
 }
-.q-gameOver  hr{
+.q-gameOver  hr {
 	visibility: hidden;
 }
 /*.q-score-track {
